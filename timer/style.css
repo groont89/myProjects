@@ -6,22 +6,40 @@
     font-family: Roboto, sans-serif
 }
 
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    
+.body {
+    background: url(img/frost.jpg) no-repeat;
+    background-size: 100%;
 }
+
+.container {
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center
+ }
+.promotion__timer {
+        margin: 0;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%)
+     }
+    
 
 .title {
     font-size: 36px;
-    font-weight: 400;
+    font-weight: 900;
+    text-shadow: 1px 1px 2px rgba(252, 248, 246, 0.25);
     margin-left: 100px;
     margin-top: 50px;
+    
 }
 
 
 .promotion__timer {
-    width: 50%
+    width: 35%;
+
 }
 
 .promotion__timer .title {
@@ -34,16 +52,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center
+    
 }
 
 .promotion__timer .timer__block {
     width: 102px;
     height: 120px;
     background: #fff;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, .25);
+    box-shadow: 0 100px 200px rgba(216, 65, 5, 0.25);
     font-size: 16px;
     font-weight: 300;
-    text-align: center
+    text-align: center;
+    border-radius: 10px;
+    border: solid gray
 }
 
 .promotion__timer .timer__block span {
