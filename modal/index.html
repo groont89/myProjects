@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HIDAY_style</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">   
+        <div class="header__left-block">
+            <div class="header__logo">
+                <img src="icons/logo.jpg" alt="Логотип">
+            </div>
+            <nav class="header__links">
+                <a href="#" class="header__link">Мужские изделия</a>
+                <a href="#" class="header__link">Женские изделия</a>
+            </nav>
+        </div>
+        <div class="header__right-block">
+            <button data-modal class="btn btn_white">Связаться с нами</button>
+        </div>
+    </header>
+    <div class="sidepanel">
+        <div class="sidepanel__text"><span>Социальные сети</span></div>
+        <div class="sidepanel__divider"></div>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/instagram.svg" alt="instagram">
+        </a>
+        <a href="#" class="sidepanel__icon">
+            <img src="icons/facebook.svg" alt="facebook">
+        </a>
+    </div>
+    <div class="preview">
+        <div class="bgc_blue"></div>
+        <div class="container">
+            <div class="tabcontainer">
+                <div class="tabcontent">
+                    <img src="img/tabs/wallets.jpg"  alt="wallets">
+                    <div class="tabcontent__descr">
+                        Здесь скоро будет текст
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/bag.jpg" alt="bag">
+                    <div class="tabcontent__descr">
+                        Здесь скоро будет текст                                     
+                    </div>
+                </div> -->
+                 <div class="tabcontent">
+                    <img src="img/tabs/belt.jpg" alt="belt">
+                    <div class="tabcontent__descr">
+                        Здесь скоро будет текст                                     
+                    </div>
+                </div>
+                <div class="tabcontent">
+                    <img src="img/tabs/set.jpg" alt="set">
+                    <div class="tabcontent__descr">
+                        Здесь скоро будет текст
+                    </div>
+                </div> 
+                <div class="tabheader">
+                    <h3>Выберите изделение </h3>
+                    <div class="tabheader__items">
+                        <div class="tabheader__item tabheader__item_active">Кошельки</div>
+                        <div class="tabheader__item">Сумки</div>
+                        <div class="tabheader__item">Ремни</div>
+                        <div class="tabheader__item">Наборы</div>
+                    </div>
+                </div>
+            </div>
+            <div class="preview__life">Живи полной жизнью и будь индивидуален!</div>
+        </div>
+    </div>
+    <div class="offer">
+        <div class="bgc_y"></div>
+        <div class="container">
+            <div class="offer__text">
+                <h2 class="title">Что мы можем вам предложить?</h2>
+                <div class="offer__descr">
+                    Наша основная идея - это правильное питание. Оно может быть простым и вкусным. Мы не просто доставка, мы сервис! Мы взяли на себя все расчеты БЖУ, калорийности, объемов порций и прочие важные, но скучные аспекты. Вам остается только полезная, сытная и правильная еда, которую мы привозим прямо под дверь.
+                </div>
+            </div>
+            <div class="offer__action">
+                <button data-modal class="btn btn_dark">Связаться с нами</button>
+            </div>
+        </div>
+        
+    </div>
+</header>
+ <!-- modal -->
+    <div class="modal ">
+        <div class="modal__dialog">
+            <div class="modal__content">
+                <form action="#">
+                    <div data-close class="modal__close">&times;</div>
+                    <div class="modal__title">Мы свяжемся с вами как можно быстрее!</div>
+                    <input required placeholder="Ваше имя" name="name" type="text" class="modal__input">
+                    <input required placeholder="Ваш номер телефона" name="phone" type="phone" class="modal__input">
+                    <button class="btn btn_dark btn_min">Перезвонить мне</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
